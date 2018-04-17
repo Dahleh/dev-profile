@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina4_7" orientation="portrait">
+    <device id="ipad9_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -16,7 +16,7 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="dev_profile" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Devslopes BG - June 2017-1920x1080" translatesAutoresizingMaskIntoConstraints="NO" id="RrL-EJ-PTs">
@@ -39,18 +39,18 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="29" translatesAutoresizingMaskIntoConstraints="NO" id="r4W-UE-mAt">
-                                <rect key="frame" x="8" y="230" width="295" height="57"/>
+                                <rect key="frame" x="41" y="230" width="229" height="57"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iUb-IT-E2H">
-                                        <rect key="frame" x="0.0" y="0.0" width="79" height="57"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="57" height="57"/>
                                         <state key="normal" image="cameraButton"/>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PPt-sy-btL">
-                                        <rect key="frame" x="108" y="0.0" width="79" height="57"/>
+                                        <rect key="frame" x="86" y="0.0" width="57" height="57"/>
                                         <state key="normal" image="cameraButton"/>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nyq-AJ-xIa">
-                                        <rect key="frame" x="216" y="0.0" width="79" height="57"/>
+                                        <rect key="frame" x="172" y="0.0" width="57" height="57"/>
                                         <state key="normal" image="cameraButton"/>
                                     </button>
                                 </subviews>
@@ -101,7 +101,6 @@
                             <constraint firstItem="fM6-Ic-SU0" firstAttribute="centerY" secondItem="tLQ-bG-Kv3" secondAttribute="centerY" id="Tjy-5d-tjT"/>
                             <constraint firstItem="tLQ-bG-Kv3" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="80" id="UKw-Sd-TAU"/>
                             <constraint firstItem="9cN-fq-go3" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="8" id="ccx-zP-vPD"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="r4W-UE-mAt" secondAttribute="trailing" constant="8" id="d7o-0D-A5T"/>
                             <constraint firstItem="9cN-fq-go3" firstAttribute="top" secondItem="55G-wY-1iO" secondAttribute="bottom" constant="15" id="hxg-HM-tha"/>
                             <constraint firstItem="RrL-EJ-PTs" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="jqR-n5-zxd"/>
                         </constraints>
